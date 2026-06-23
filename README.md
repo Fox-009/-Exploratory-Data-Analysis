@@ -3,7 +3,6 @@
 Exploratory Data Analysis on IPL 2022 match data covering **74 matches** and **20 columns**.
 
 ---
-<img width="1472" height="838" alt="image" src="https://github.com/user-attachments/assets/aaf53b3b-3be4-4047-ae77-819b2cc8cc0d" />
 
 ## 🎯 Key Insights
 

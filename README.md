@@ -1,5 +1,4 @@
 # 📊 Data Science & Analytics Projects
-
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.24-013243?logo=numpy&logoColor=white)](https://numpy.org/)
@@ -10,15 +9,13 @@
 ---
 
 ## 📌 About This Repository
-
-This repository contains a collection of **Exploratory Data Analysis (EDA)** and **Data Science** projects. Each project explores real-world datasets to uncover patterns, build insights, and practice data analysis workflows.
+This repository contains a collection of **Exploratory Data Analysis (EDA)** projects on real-world datasets. Each project explores data to uncover patterns, build insights, and demonstrate data analysis workflows using Python.
 
 ---
 
 ## 🗂️ Projects
 
-### 1️⃣ [IPL 2022 EDA](./IPL-2022-EDA/)
-
+### 1️⃣ [IPL 2022 EDA](./IPL-EDA-2022/)
 - **Description**: EDA on IPL 2022 match data (74 matches, 20 columns).
 - **Key Insights**:
   - Toss winner wins **48.65%** matches
@@ -30,59 +27,83 @@ This repository contains a collection of **Exploratory Data Analysis (EDA)** and
 - **Tech Stack**: Python, Pandas, NumPy, Matplotlib, Seaborn
 - **Status**: ✅ Completed
 
-### 2️⃣ [Coming Soon]
+---
 
-- **Description**: More projects coming soon.
-- **Status**: ⏳ Planned
+### 2️⃣ [Titanic EDA](./Titanic/)
+- **Description**: EDA on the Titanic dataset to understand passenger demographics and survival patterns.
+- **Key Insights**:
+  - Overall survival rate: **38.4%**
+  - Women had **74%** survival rate (Men: **19%**)
+  - 1st Class: **63%** survived (3rd Class: **24%**)
+  - Best family size: **3 members (72.4% survived)**
+  - Higher fare = Higher survival
+  - Best combo: **Female + 1st Class (96.8% survived)**
+- **Tech Stack**: Python, Pandas, Matplotlib, Seaborn
+- **Status**: ✅ Completed
+
+---
+
+### 3️⃣ [Play Store EDA](./Google%20playstore/)
+- **Description**: EDA on Google Play Store apps to understand app trends and user preferences.
+- **Key Insights**:
+  - Free apps dominate (**93.1%** of all apps)
+  - Average rating: **4.19**
+  - Most popular category: **Family**
+  - Paid apps have slightly higher ratings
+  - No strong correlation between app size and rating
+- **Tech Stack**: Python, Pandas, NumPy, Matplotlib, Seaborn
+- **Status**: ✅ Completed
 
 ---
 
 ## 🛠️ Tools & Technologies
-
 | Tool | Purpose |
 |------|---------|
 | Python 3.10 | Core programming language |
 | Pandas | Data manipulation & cleaning |
 | NumPy | Numerical operations |
-| Matplotlib | Data visualization (static plots) |
+| Matplotlib | Data visualization |
 | Seaborn | Statistical visualizations |
 | Jupyter Notebook | Interactive development environment |
 
 ---
 
 ## 📂 Repository Structure
-📦 Data-Science-Projects
+```
+Exploratory-Data-Analysis/
+├── IPL-EDA-2022/
+│   ├── IPL_2022.ipynb
+│   └── IPL.csv
+├── Titanic/
+│   ├── Titanic.ipynb
+│   └── Titanic-Dataset.csv
+├── Google playstore/
+│   ├── Google_playstore.ipynb
+│   └── googleplaystore.csv
+├── requirements.txt
+└── README.md
+```
 
-┣ 📁 IPL-2022-EDA
-
-┃ ┣ 📓 ipl_eda.ipynb
-
-┃ ┣ 📄 ipl_2022.csv
-
-┃ ┗ 📄 README.md
-
-┗ 📄 README.md
 ---
 
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/Fox-009/Data-Science-Projects.git
-cd Data-Science-Projects
+git clone https://github.com/Fox-009/-Exploratory-Data-Analysis.git
+cd "-Exploratory-Data-Analysis"
 pip install -r requirements.txt
+jupyter notebook
 ```
 
-Then open any project notebook:
-
-```bash
-cd IPL-2022-EDA
-jupyter notebook ipl_eda.ipynb
-```
+Then open any `.ipynb` file from its project folder to view the analysis.
 
 ---
 
-## 🤝 Connect
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
 
-[![GitHub](https://img.shields.io/badge/GitHub-Fox--009-181717?logo=github&logoColor=white)](https://github.com/Fox-009)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shivam%20Srivastava-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/shivam-srivastava-66a49b351)
-[![LeetCode](https://img.shields.io/badge/LeetCode-fox--009-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/fox-009/)
+---
+
+## 📬 Connect
+- GitHub: [@Fox-009](https://github.com/Fox-009)
+- LeetCode: [fox-009](https://leetcode.com/fox-009)
